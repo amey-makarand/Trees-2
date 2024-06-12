@@ -1,3 +1,16 @@
+# Time Complexity : O(n)
+
+# space complexity : O(h)
+
+# Approach :
+
+# use dfs
+# keep going left till the leaf node is reached
+# keep going right till the leaf node is reached
+# keep calculating the digit using the formula : currdigit * 10 + root value
+# once the leaf node is reached return the final sum digit
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
